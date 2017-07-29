@@ -1,0 +1,29 @@
+{
+  "name": "cyclone-warnings",
+  "version": "0.0.1",
+  "description": "Fetch current cyclone warnings from several agencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiliogozo/cyclone-warnings.git"
+  },
+  "keywords": [
+    "weather",
+    "cyclone",
+    "typhoon",
+    "warning"
+  ],
+  "author": "Emilio Gozo <emilio.gozo@obf.ateneo.edu> (http://emiliogozo.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiliogozo/cyclone-warnings/issues"
+  },
+  "homepage": "https://github.com/emiliogozo/cyclone-warnings#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
