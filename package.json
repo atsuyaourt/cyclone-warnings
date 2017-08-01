@@ -4,7 +4,7 @@
   "description": "Fetch current cyclone warnings from several agencies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'lib/**/*.spec.js'"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,9 @@
   "dependencies": {
     "axios": "^0.16.2",
     "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "sinon": "^2.4.1"
   }
 }
