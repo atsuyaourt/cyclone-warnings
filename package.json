@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/emiliogozo/cyclone-warnings#readme",
   "dependencies": {
-    "axios": "^0.16.2",
-    "cheerio": "^1.0.0-rc.2"
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10"
   },
   "devDependencies": {
     "chai": "^4.1.0",
